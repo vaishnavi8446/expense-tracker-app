@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaishnavi8446/expense-tracker-app.git"
+  },
+  "author": "Vaishnavi Ambolkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaishnavi8446/expense-tracker-app/issues"
+  },
+  "homepage": "https://github.com/vaishnavi8446/expense-tracker-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^6.10.0",
+    "nodemon": "^3.0.1"
+  }
+}
